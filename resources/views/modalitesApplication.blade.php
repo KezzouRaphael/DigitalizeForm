@@ -58,13 +58,14 @@
                     <h2 class="">QUI EST PRÉSENT LORS DE L’APPLICATION DE CE QUESTIONNAIRE ?
                     </h2>
                 </div>
-                <h3 class="text-sm my-2">[Indiquez ici le nombre de producteur(s) ou productrice(s) et de représentant·e·(s)
+                <h3 class="text-sm my-2">[Indiquez ici le nombre de producteur(s) ou productrice(s) et de
+                    représentant·e·(s)
                     de l’équipe
                     technique présent·e·(s) lors du diagnostic. Si des tiers sont présents, veuillez les identifier (nom
                     ou
                     fonction) et préciser leur rôle lors du diagnostic<sup>4</sup>.]
                 </h3>
-                <textarea class="h-48 w-full lg:w-[80vw] border-2 my-2 p-2" type="textarea" class="resize-none"></textarea>
+                <textarea class="h-48 w-full lg:w-[80vw] resize-none border-2 my-2 p-2" type="textarea" ></textarea>
             </div>
             <div class="bg-red-900 border-none px-2 py-2 text-white">
                 <h2>LES SCORES DES INDICATEURS SONT ATTRIBUÉS PAR : **</h2>
@@ -92,17 +93,20 @@
                     <input class="border" for="autre" type="text">
 
                 </div>
-               
-            </div>
-            <hr>
-            <h3 class="py-2">
-            [Commentaires éventuels sur les modalités d’application du questionnaire]
-            </h3> 
-            <textarea class="h-48 w-full lg:w-[80vw] border-2 my-2 p-2" type="textarea" style="resize-none" rows="6" class="resize-none"></textarea>
 
+            </div>
+            <div>
+                <hr>
+                <h3 class="py-2">
+                    [Commentaires éventuels sur les modalités d’application du questionnaire]
+                </h3>
+                <textarea class="h-48 w-full lg:w-[80vw] resize-none border-2 my-2 p-2" type="textarea" style="resize-none" rows="6"
+                    class="resize-none">
+                </textarea>
+            </div>
         </div>
         <div class="flex justify-center py-2">
-                <button class="text-sm px-2 mx-8 py-[0.1px] border-2 hover:scale-110 ">Go back</button>
+            <button class="text-sm px-2 mx-8 py-[0.1px] border-2 hover:scale-110 ">Go back</button>
             <button class="text-lg px-2 py-2 border-2 hover:scale-110 text-white bg-red-900">Continue</button>
         </div>
     </section>
