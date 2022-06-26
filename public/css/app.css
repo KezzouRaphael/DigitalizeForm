@@ -518,6 +518,12 @@ video {
 .ml-2 {
   margin-left: 0.5rem;
 }
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.mt-1 {
+  margin-top: 0.25rem;
+}
 .block {
   display: block;
 }
@@ -526,6 +532,9 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.max-w-full {
+  max-width: 100%;
 }
 .rounded-2xl {
   border-radius: 1rem;
@@ -578,6 +587,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 .hover\:bg-blue-600:hover {
   --tw-bg-opacity: 1;
