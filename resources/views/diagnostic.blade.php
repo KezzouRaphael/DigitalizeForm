@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <section class="mx-8 my-4 text-sm md:text-base md:mx-24 md:my-12 border-2 border-black border-dotted px-8 pt-8 pb-4 ">
+    <section class="mx-8 my-4 text-sm md:text-base md:mx-24 md:my-12 border-2 border-black border-dotted px-8 pt-4 md:pt-8 pb-4 ">
         <h1 class="text-2xl pb-4 flex justify-center font-bold">A LIRE AVANT DE COMMENCER</h1>
 
         <h2 class="text-lg font-bold pb-2">OBJECTIF</h2>
@@ -75,6 +75,10 @@
             des « MODALITÉS
             D’APPLICATION » en page 4.</p>
     </section>
+    <div class="flex justify-center pt-2 pb-4">
+        <button class="text-sm px-2 mx-8 py-[0.1px] border-2 hover:scale-110 ">Go back</button>
+        <button class="text-lg px-2 py-2 border-2 hover:scale-110 text-white bg-red-900">Continue</button>
+    </div>
 </body>
 
 </html>

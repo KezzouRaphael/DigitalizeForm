@@ -66,7 +66,7 @@
                     ou
                     fonction) et préciser leur rôle lors du diagnostic<sup>4</sup>.]
                 </h3>
-                <textarea class="h-48 w-full lg:w-[80vw] resize-none border-2 my-2 p-2" type="textarea"></textarea>
+                <textarea class="h-48 w-full lg:w-[60vw] resize-none border-2 my-2 p-2" type="textarea"></textarea>
             </div>
             <div class="bg-red-900 border-none px-2 py-2 text-white">
                 <h2>LES SCORES DES INDICATEURS SONT ATTRIBUÉS PAR : **</h2>
@@ -101,7 +101,7 @@
                 <h3 class="py-2">
                     [Commentaires éventuels sur les modalités d’application du questionnaire]
                 </h3>
-                <textarea class="h-48 w-full lg:w-[80vw] resize-none border-2 my-2 p-2" type="textarea" style="resize-none"
+                <textarea class="h-48 w-full lg:w-[60vw] resize-none border-2 my-2 p-2" type="textarea" style="resize-none"
                     rows="6" class="resize-none">
                 </textarea>
             </div>

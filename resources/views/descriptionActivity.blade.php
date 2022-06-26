@@ -17,11 +17,11 @@
                 lors de l’attribution des scores dans la suite du diagnostic.
                 Si le producteur ou la productrice réalise le diagnostic sans accompagnement, il ou elle ne
                 complètera que cette partie « a priori ».</h2>
-                <textarea class="h-48 w-full lg:w-[80vw] resize-none border-2 my-2 p-2" type="textarea" ></textarea>
+                <textarea class="h-48 w-full lg:w-[60vw] resize-none border-2 my-2 p-2" type="textarea" ></textarea>
             <br/>
             <br/>
             <h2>Cette partie est complétée suite à l’application du diagnostic, dans le but de faire ressortir des compléments d’information.</h2>
-            <textarea class="h-48 w-full lg:w-[80vw] resize-none border-2 my-2 p-2" type="textarea" ></textarea>
+            <textarea class="h-48 w-full lg:w-[60vw] resize-none border-2 my-2 p-2" type="textarea" ></textarea>
         </section>
     </body>
 </html>
