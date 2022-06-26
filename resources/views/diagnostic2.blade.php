@@ -16,7 +16,8 @@
 
     <div class="inline-block m-0 ">
 
-        <label class="inline-block items-end  bg-red-900" for="dateHere">DATE </label><input class="border-2 border-black" type="date" name="dateHere" />
+        <label class="inline-block items-end  bg-red-900" for="dateHere">DATE </label><input
+            class="border-2 border-black" type="date" name="dateHere" />
 
     </div>
     <section
@@ -66,8 +67,12 @@
             <li>Un tableau reprenant la synthèse des réponses aux questions, le score attribué pour la thématique, ainsi
                 que des commentaires éventuels.</li>
         </ul>
-    
+
     </section>
-    </body>
+    <div class="flex justify-center pt-2 pb-4">
+        <button class="text-sm px-2 mx-8 py-[0.1px] border-2 hover:scale-110 ">Go back</button>
+        <button class="text-lg px-2 py-2 border-2 hover:scale-110 text-white bg-red-900">Continue</button>
+    </div>
+</body>
 
 </html>
