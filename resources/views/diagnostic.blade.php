@@ -1,5 +1,4 @@
 <html>
-
 <head>
     <meta charset="utf-8" />
     <title>A LIRE AVANT DE COMMENCER</title>
@@ -60,13 +59,10 @@
                 d’un exercice d’auto-analyse ;
             </li>
             <li>Participation, ou non, de tiers (rôle d’observateur, de facilitateur, etc.) ;
-                * </li>
+            </li>
             <li>Tout autre modalité justifiée par le contexte.</li>
-
             <p>Nous recommandons simplement que la/les modalité(s) choisie(s) soi(en)t précisée(s) dans l’encadré des
                 « MODALITÉS
                 D’APPLICATION » en page 4.</p>
-            </p>
 </body>
-
 </html>
