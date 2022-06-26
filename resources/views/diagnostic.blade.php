@@ -1,57 +1,80 @@
-<html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>Salut</title>
-    </head>
-    <body>
-        <h1>A LIRE AVANT DE COMMENCER</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-        <h2>OBJECTIF</h2>
-            <p>
-                Cet Outil d’Intégration Environnementale (OIE) est conçu pour structurer un dialogue, une réflexion, au niveau environnemental entre
-                un·e agent·e économique responsable d’une activité productive soutenue par l’un de nos projets/programmes, et l’équipe
-                technique dudit projet/programme (mais peut également être utilisé par un.e agent.e économique non-accompagné.e dans un
-                exercice d’auto-analyse). Cet·te agent·e peut être un individu, une famille, un groupe, une association, une coopérative,
-                une collectivité, etc.
-            </p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UNI4COOP FORM</title>
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+</head>
 
-            <p>Pour des raisons pratiques, nous utiliserons par la suite les dénominations de « activité » et « producteur » ou
-                « productrice » pour faire référence respectivement à une
-                « activité productive » et « un·e ou plusieurs agent·e·s économiques responsables
-                d’une activité productive ».
-            </p>
+<body>
+    <section class="mx-8 my-4 text-sm md:text-base md:mx-24 md:my-12 border-2 border-black border-dotted px-8 pt-8 pb-4 ">
+        <h1 class="text-2xl pb-4 flex justify-center font-bold">A LIRE AVANT DE COMMENCER</h1>
 
-            <p>Cet outil s’applique en 3 étapes :
+        <h2 class="text-lg font-bold pb-2">OBJECTIF</h2>
+        <p class="pb-4">
+            Cet Outil d’Intégration Environnementale (OIE) est conçu pour <span class="font-bold">structurer un dialogue</span>, une réflexion, au
+            niveau environnemental entre
+            <span class="font-bold">un·e agent·e économique</span> responsable d’une activité productive soutenue par l’un de nos projets/programmes,
+            et <span class="font-bold">l’équipe technique</span> dudit projet/programme (mais peut également être utilisé par un.e agent.e économique
+            non-accompagné.e dans un
+            exercice d’auto-analyse). Cet·te agent·e peut être un individu, une famille, un groupe, une association, une
+            coopérative,
+            une collectivité, etc.
+        </p>
 
-            <ol>
-            <li>Dans un premier temps, un diagnostic environnemental concernant l’activité du producteur ou de la productrice est réalisé,
-                en mettant en évidence : les influences réciproques entre son activité et l’environnement, sa volonté à s’engager pour une
-                meilleure prise en compte de l’environnement dans son activité, et ses capacités et besoins pour s’engager.
+        <p class="pb-4">Pour des raisons pratiques, nous utiliserons par la suite les dénominations de <span class="font-bold">« activité »</span> et <span class="font-bold">« producteur »</span>
+            ou
+            <span class="font-bold">« productrice »</span> pour faire référence respectivement à une
+            « activité productive » et « un·e ou plusieurs agent·e·s économiques responsables
+            d’une activité productive ».
+        </p>
+
+        <p class="pb-2">Cet outil s’applique en 3 étapes :
+
+        <ul class="pb-4 list-decimal ml-12">
+            <li class="text-red-900 ">Dans un premier temps, un <span class="font-bold">diagnostic environnemental</span> concernant l’activité du producteur ou de la
+                productrice est réalisé,
+                en mettant en évidence : les influences réciproques entre son activité et l’environnement, sa volonté à
+                s’engager pour une
+                meilleure prise en compte de l’environnement dans son activité, et ses capacités et besoins pour
+                s’engager.
             </li>
-            <li>
-                Sur base de ce diagnostic, le but est de conduire à la prise d’engagements autodéterminés de la part du producteur ou de la productrice, ainsi qu’à certaines
-                actions d’appui à mettre en œuvre par le projet/programme qui l’accompagne.
+            <li class="text-[#CBCA04]">
+                Sur base de ce diagnostic, le but est de conduire à la prise <span class="font-bold">d’engagements autodéterminés</span> de la part du
+                producteur ou de la productrice, ainsi qu’à certaines
+                <span class="font-bold">actions d’appui</span> à mettre en œuvre par le projet/programme qui l’accompagne.
             </li>
-            <li>Enfin, selon les modalités convenues, la progression de la mise en œuvre des engagements est évaluée.</li>
+            <li class="text-blue-600">Enfin, selon les modalités convenues, la progression de la <span class="font-bold">mise en œuvre des engagements</span> est évaluée.
+            </li>
 
-            <p>Des annexes sont jointes pour faciliter l’application de l’OIE, notamment un glossaire reprenant le vocabulaire spécifique de l’outil
-                (ANNEXE 1). Les termes qui y sont repris sont suivis d’un astérisque (*) dans le reste du document.
-            </p>
-            <h2>MODALITÉS D’APPLICATION</h2>
-            <p>Les modalités d’application de cet outil sont ouvertes. Nous laissons le soin à l’équipe technique et au producteur ou à la productrice, de les déterminer selon le contexte :
-            </p>
-            <ul>
-                <li>Application conjointe entre l’équipe technique et le producteur ou la productrice (analyse au travers d’un dialogue) ;
+        </ul>
+        <p class="pb-4"> Des <span class="font-bold">annexes</span> sont jointes pour faciliter l’application de l’OIE, notamment un <span class="font-bold">glossaire</span> reprenant le
+            vocabulaire spécifique de l’outil
+            (ANNEXE 1). Les termes qui y sont repris sont suivis d’un astérisque (*) dans le reste du document.
+        </p>
+        <h2 class="text-lg font-bold pb-2">MODALITÉS D’APPLICATION</h2>
+        <p class="pb-2">Les modalités d’application de cet outil sont <span class="font-bold">ouvertes</span>. Nous laissons le soin à l’équipe technique et au
+            producteur ou à la productrice, de les déterminer selon le contexte :
+        </p>
+        <ul class="list-disc ml-12 pb-2">
+            <li>Application conjointe entre l’équipe technique et le producteur ou la productrice (analyse au
+                travers d’un dialogue) ;
             </li>
-                <li>Application individuelle de la part du producteur ou de la productrice, c’est-à-dire, sans accompagnement d’une équipe technique. Dans ce cas, il s’agira
-                    d’un exercice d’auto-analyse ;
+            <li>Application individuelle de la part du producteur ou de la productrice, c’est-à-dire, sans
+                accompagnement d’une équipe technique. Dans ce cas, il s’agira
+                d’un exercice d’auto-analyse ;
             </li>
-                <li>Participation, ou non, de tiers (rôle d’observateur, de facilitateur, etc.) ;
-            * </li>
-                <li>Tout autre modalité justifiée par le contexte.</li>
+            <li>Participation, ou non, de tiers (rôle d’observateur, de facilitateur, etc.) ;
+            </li>
+            <li>Tout autre modalité justifiée par le contexte.</li>
+        </ul>
+        <p>Nous recommandons simplement que la/les modalité(s) choisie(s) soi(en)t <span class="font-bold">précisée(s)</span> dans l’encadré
+            des « MODALITÉS
+            D’APPLICATION » en page 4.</p>
+    </section>
+</body>
 
-            <p>Nous recommandons simplement que la/les modalité(s) choisie(s) soi(en)t précisée(s) dans l’encadré des « MODALITÉS
-                D’APPLICATION » en page 4.</p>
-            </p>
-    </body>
 </html>

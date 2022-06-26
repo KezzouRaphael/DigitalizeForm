@@ -10,8 +10,9 @@
 </head>
 
 <body>
-    <section class="flex flex-col border-2 justify-center my-8 mx-4 px-4 py-4 text-sm md:text-base xl:text-lg">
-        <h1 class="text-red-900 font-bold mb-2 text-xl">MODALITÉS D’APPLICATION</h1>
+    <h1 class="text-red-900 font-bold mb-2 text-xl mx-8 md:mx-24 mt-8 md:mt-12">MODALITÉS D’APPLICATION</h1>
+    <section
+        class="flex flex-col justify-center mx-8 text-sm md:text-base md:mx-24 px-8 pt-8 pb-4 border-2 border-black  ">
 
         <div class="flex flex-col ">
             <div class="bg-red-900 border-none px-2 py-2">
@@ -65,7 +66,7 @@
                     ou
                     fonction) et préciser leur rôle lors du diagnostic<sup>4</sup>.]
                 </h3>
-                <textarea class="h-48 w-full lg:w-[80vw] resize-none border-2 my-2 p-2" type="textarea" ></textarea>
+                <textarea class="h-48 w-full lg:w-[80vw] resize-none border-2 my-2 p-2" type="textarea"></textarea>
             </div>
             <div class="bg-red-900 border-none px-2 py-2 text-white">
                 <h2>LES SCORES DES INDICATEURS SONT ATTRIBUÉS PAR : **</h2>
@@ -100,12 +101,12 @@
                 <h3 class="py-2">
                     [Commentaires éventuels sur les modalités d’application du questionnaire]
                 </h3>
-                <textarea class="h-48 w-full lg:w-[80vw] resize-none border-2 my-2 p-2" type="textarea" style="resize-none" rows="6"
-                    class="resize-none">
+                <textarea class="h-48 w-full lg:w-[80vw] resize-none border-2 my-2 p-2" type="textarea" style="resize-none"
+                    rows="6" class="resize-none">
                 </textarea>
             </div>
         </div>
-        <div class="flex justify-center py-2">
+        <div class="flex justify-center pt-2 pb-4">
             <button class="text-sm px-2 mx-8 py-[0.1px] border-2 hover:scale-110 ">Go back</button>
             <button class="text-lg px-2 py-2 border-2 hover:scale-110 text-white bg-red-900">Continue</button>
         </div>
