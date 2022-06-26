@@ -16,4 +16,3 @@ Route::get('/diagnostic2', [diagnosticController2::class, 'diagnosticEnv2'])->na
 
 Route::get('/descriptionActivity', [descriptionActivityController::class, 'descriptionActivityFunc'])->name('descriptionActivity');
 
-
