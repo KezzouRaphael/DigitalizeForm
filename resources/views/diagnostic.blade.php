@@ -10,8 +10,9 @@
 </head>
 
 <body>
+
     <section
-        class="mx-8 my-4 text-sm md:text-base md:mx-24 md:my-12 border-2 border-black border-dotted px-8 pt-8 pb-4 ">
+        class="mx-8 my-4 text-sm md:text-base md:mx-24 md:my-12 border-2 border-black border-dotted px-8 pt-4 md:pt-8 pb-4 ">
         <h1 class="text-2xl pb-4 flex justify-center font-bold">A LIRE AVANT DE COMMENCER</h1>
 
         <h2 class="text-lg font-bold pb-2">OBJECTIF</h2>
